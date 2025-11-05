@@ -1,0 +1,30 @@
+# Virtual environment
+.venv
+venv/
+env/
+
+# Python cache
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Git
+.git
+.gitignore
+
+# Environment variables (will be passed via docker-compose)
+.env
+
+# Documentation
+*.md
+steps.md
+
+# IDE
+.vscode
+.idea
+
+# OS
+.DS_Store
+Thumbs.db

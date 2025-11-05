@@ -1,0 +1,9 @@
+services:
+  weather-app:
+    build: .
+    container_name: weather-app
+    ports:
+      - "7777:8000"
+    environment:
+      - API_KEY=${API_KEY}
+    restart: unless-stopped
