@@ -18,6 +18,9 @@ if __name__ == "__main__":
     print('\n*** Current Weather Conditions ***\n')
 
     city = input("\nPlease enter city name: ")
+    # Check for empty input and set default city
+    if not bool(city.strip()):
+        city = "Berlin"
 
     weather_data = get_current_weather(city)
     
