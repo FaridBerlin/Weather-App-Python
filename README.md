@@ -235,6 +235,8 @@ This project is open source and available under the MIT License.
 
 **Farid Berlin**
 
+***
+
 - GitHub: [@FaridBerlin](https://github.com/FaridBerlin)
 
 ## 🙏 Acknowledgments
